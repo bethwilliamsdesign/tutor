@@ -1,0 +1,111 @@
+/* Font Styles */
+h1{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    padding: 0 0 20 0;;
+}
+
+h3{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0 0 20 0;;
+}
+
+h4, h5, h6{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+h6{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.1rem;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0 0 20 0;
+}
+
+.btn{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-brand{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav-item{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Page Colors*/
+
+body{
+    background-color: #E8665C;
+}
+
+.navbar{
+    background-color: #E1E8F8;
+}
+
+.wrapper{
+    background-color: #E1E8F8;
+    border: 3px solid ;
+    box-shadow: 5px 5px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px){
+    body{
+        margin: 80px;
+        margin-top: 60px;
+    }
+  }
+
+.icon-square {
+width: 5rem;
+height: 5rem;
+border-radius: 0.75rem;
+}
+
+.card:hover {
+    transform: translate(-4px,-4px);
+}
+
+.profile-photo{
+    border: 3px solid ;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+    border-radius: 20px;
+}
